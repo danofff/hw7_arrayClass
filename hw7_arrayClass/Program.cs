@@ -10,10 +10,10 @@ namespace hw7_arrayClass
     {
         static void Main(string[] args)
         {
-            arClass a1 = new arClass(10);
-            arClass a2 = new arClass(10);
-            a1.printArr();
-            a2.printArr();
+            ArClass a1 = new ArClass(10);
+            ArClass a2 = new ArClass(10);
+            a1.PrintArr();
+            a2.PrintArr();
             Console.WriteLine("overload >");
             Console.WriteLine(a1>a2);
             Console.WriteLine("overload <");
